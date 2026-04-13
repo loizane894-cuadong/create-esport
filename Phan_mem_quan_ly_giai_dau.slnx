@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="BUS/BUS.csproj" />
-  <Project Path="DAL/DAL.csproj" />
-  <Project Path="DTO/DTO.csproj" />
-  <Project Path="Phan_mem_quan_ly_giai_dau/GUI.csproj" />
-</Solution>
