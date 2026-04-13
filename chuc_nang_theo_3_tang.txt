@@ -1,0 +1,106 @@
+GUI (Hiển thị)
+
+Form đăng nhập
+
+Form quản lý đội
+
+Form quản lý người chơi
+
+Form quản lý giải
+
+Form quản lý trận
+
+Form bảng xếp hạng
+
+Form dashboard
+
+Validate cơ bản
+
+Hiển thị DataGridView
+
+
+
+
+
+
+
+
+
+BUS (Nghiệp vụ)
+
+Validate dữ liệu
+
+Kiểm tra trùng
+
+Kiểm tra ràng buộc
+
+Tính điểm
+
+Sắp xếp bảng xếp hạng
+
+Kiểm soát logic match
+
+Kiểm soát transaction
+
+
+
+
+
+
+
+
+
+DAL (Dữ liệu)
+
+Kết nối database
+
+SELECT
+
+INSERT
+
+UPDATE
+
+DELETE
+
+Stored Procedure (nếu có)
+
+Transaction
+
+Parameterized Query
+
+
+
+
+
+
+Hệ thống thi đấu nâng cao
+
+Bo3 (Best of 3)
+
+Bo5
+
+Tự động tạo lịch thi đấu vòng tròn
+
+Chia bảng (Group A, B)
+
+🔥 Thống kê
+
+Top đội mạnh nhất
+
+Player ghi nhiều điểm nhất
+
+Biểu đồ thống kê
+
+🔥 Xuất báo cáo
+
+Export Excel
+
+Export PDF
+
+🔥 Tính năng hệ thống
+
+Backup database
+
+Log hoạt động
+
+Dark mode UI

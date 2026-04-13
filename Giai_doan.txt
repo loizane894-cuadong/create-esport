@@ -1,0 +1,165 @@
+GIAI ĐOẠN 1: PHÂN TÍCH & THIẾT KẾ (2–3 ngày)
+
+👉 Làm chung cả team
+
+Công việc chung:
+
+ Phân tích yêu cầu
+
+ Liệt kê chức năng
+
+ Vẽ ERD
+
+ Thiết kế bảng SQL
+
+ Thống nhất naming convention
+
+ Tạo Git repository
+
+
+
+
+GIAI ĐOẠN 2: XÂY DỰNG DAL (1 tuần)
+
+👉 Làm song song theo module
+
+👤 Dev C (Leader Database)
+
+Chịu trách nhiệm:
+
+DatabaseHelper
+
+Viết DAL cho:
+
+TeamDAL
+
+TournamentDAL
+
+PlayerDAL
+
+👤 Dev B
+
+MatchDAL
+
+StandingDAL
+
+Transaction xử lý Match + Standing
+
+👤 Dev A
+
+Test DAL bằng Console App
+
+Viết tool test query
+
+Viết seed data
+
+🎯 Kết quả giai đoạn 2:
+
+DAL hoàn chỉnh
+
+Có thể test CRUD bằng console
+
+Database ổn định
+
+
+
+
+
+
+GIAI ĐOẠN 3: XÂY DỰNG BUS (1 tuần)
+
+Bắt đầu có sự chia module rõ ràng.
+
+👤 Dev A – Team & Player
+
+TeamBUS
+
+PlayerBUS
+
+Validate dữ liệu
+
+Check trùng
+
+Check ràng buộc khi xóa
+
+👤 Dev B – Tournament
+
+TournamentBUS
+
+Validate ngày
+
+Check trùng tên
+
+Check đã có match chưa
+
+👤 Dev C – Match & Standing (phức tạp nhất)
+
+MatchBUS
+
+StandingBUS
+
+Tính điểm
+
+Update bảng xếp hạng
+
+Xử lý rollback
+
+🎯 Kết quả giai đoạn 3:
+
+Toàn bộ logic nghiệp vụ hoàn chỉnh
+Có thể test bằng Console trước khi làm GUI
+
+
+
+
+GIAI ĐOẠN 4: XÂY DỰNG GUI (1 tuần)
+
+Lúc này mọi logic đã ổn định.
+
+👤 Dev A (UI chính)
+
+FrmMain
+
+Navigation
+
+Dashboard
+
+Thiết kế layout đẹp
+
+👤 Dev B – Module Team + Tournament
+
+FrmTeam
+
+FrmTournament
+
+Gọi BUS
+
+DataGridView
+
+👤 Dev C – Module Match + Standing
+
+FrmMatch
+
+FrmStanding
+
+ComboBox chọn đội
+
+Hiển thị bảng xếp hạng
+
+
+
+GIAI ĐOẠN 5: TÍCH HỢP & TEST (4–5 ngày)
+
+Cả team cùng làm.
+
+Công việc:
+
+ Test luồng thêm đội → tạo giải → tạo match → cập nhật điểm
+
+ Test lỗi
+
+ Test xóa dữ liệu
+
+ Fix bug
+
+ Kiểm tra crash
